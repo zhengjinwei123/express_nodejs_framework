@@ -1,0 +1,4 @@
+node_modules/[.a-i]*
+node_modules/[k-z]*
+node_modules/jade/
+node_modules/jinwei/node_modules/

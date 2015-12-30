@@ -1,0 +1,5 @@
+{
+  "name":"jade_node",
+  "scan":["configFiles"],
+  "beans":[]
+}

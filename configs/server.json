@@ -1,0 +1,48 @@
+{
+  "env": "development",
+  "port": "9009",
+  "host": "127.0.0.1",
+  "process_count": "2",
+  "config_files_dir": [
+    {
+      "dir": "configFiles",
+      "hot": true
+    }
+  ],
+  "public_dir": [
+    "public"
+  ],
+  "redis": {
+    "valid": true,
+    "pool_count": 10,
+    "host": "127.0.0.1",
+    "port": 6379,
+    "username": "",
+    "password": ""
+  },
+  "mongodb": {
+    "valid": true,
+    "host": "",
+    "port": "",
+    "username": "",
+    "password": ""
+  },
+  "mysql": {
+    "valid": true,
+    "host": "",
+    "port": "",
+    "username": "",
+    "password": ""
+  },
+  "route_filter": {
+    "control_name": "auth",
+    "list": {
+      "all": [
+        "/index",
+        "/user"
+      ],
+      "1": ["/index"],
+      "2": ["/user"]
+    }
+  }
+}
